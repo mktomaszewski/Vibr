@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7702" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="-8" y="0.0" width="648" height="480"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="FirstFrame" translatesAutoresizingMaskIntoConstraints="NO" id="UjK-1d-aMe">
+                    <rect key="frame" x="0.0" y="0.0" width="648" height="720"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LogoImage" translatesAutoresizingMaskIntoConstraints="NO" id="HMD-ma-8jQ">
+                    <rect key="frame" x="24" y="10" width="600" height="216"/>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="HMD-ma-8jQ" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="24" id="BKJ-6t-zUS"/>
+                <constraint firstAttribute="bottom" secondItem="HMD-ma-8jQ" secondAttribute="bottom" constant="489" id="CgP-D2-g82"/>
+                <constraint firstAttribute="trailing" secondItem="HMD-ma-8jQ" secondAttribute="trailing" constant="24" id="GhY-wv-QFe"/>
+                <constraint firstItem="HMD-ma-8jQ" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="10" id="mJz-qZ-vsh"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <variation key="heightClass=regular">
+                <mask key="subviews">
+                    <exclude reference="UjK-1d-aMe"/>
+                </mask>
+            </variation>
+            <point key="canvasLocation" x="377" y="507.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="FirstFrame" width="960" height="540"/>
+        <image name="LogoImage" width="640" height="480"/>
+    </resources>
+</document>
